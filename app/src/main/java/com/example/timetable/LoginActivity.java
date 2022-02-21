@@ -52,6 +52,7 @@ public class LoginActivity extends AppCompatActivity {
             public void onClick(View view) {
                 Intent intent=new Intent(getApplicationContext(),RegistrationActivity.class);
                 startActivity(intent);
+                int i;
             }
         });
     }
